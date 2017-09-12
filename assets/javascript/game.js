@@ -68,6 +68,7 @@ $("#crystal4").on("click", function() {
 function startGame() {
 // total score set equal to zero
 totalScore = 0;
+$("#score").text("Score: " + totalScore);
 // generate a random number for the goal number, between 19-120
 goalNum = Math.floor(Math.random() * 102) + 19;
 $("#goal").text("Goal: " + goalNum);
