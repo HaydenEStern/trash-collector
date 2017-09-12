@@ -1,0 +1,64 @@
+body {
+	background-image: url("../images/opossum.png");
+	background-color: #948a7d;
+	background-repeat: no-repeat;
+	background-size: 35%;
+	background-position: right top;
+	font-family: 'Press Start 2P', cursive;
+	line-height: 150%;
+}
+
+img {
+	height: 150px;
+	width: 150px;
+}
+
+.container {
+	display: flex;
+	flex-flow: column nowrap;
+	margin-top: 2%;
+	margin-right: 20%;
+	height: 100%;
+	padding: 5px;
+}
+
+header {
+	display: flex;
+	height: 100px;
+
+}
+
+
+
+.info {
+	border: 5px black solid;
+	border-radius: 25px;
+	background-color: #fff;
+	width: 60%;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 3%;
+}
+
+
+h1 {
+	font-size: 36px;
+	margin: auto;
+}
+
+#heading {
+	margin-bottom: 3%;
+}
+
+#trash {
+	display: flex;
+	flex-flow: row nowrap;
+	margin-bottom: 1%;
+	padding-top: 6%;
+	padding-bottom: 6%;
+}
+
+#trashcontainer {
+	margin: auto;
+}
